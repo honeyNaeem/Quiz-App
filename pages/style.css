@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "popins", "sansarif";
+}
+
+body {
+    background: #000000;
+    background: url(https://t4.ftcdn.net/jpg/04/39/13/37/360_F_439133763_FrLdhZsd5aGC23r9ATARuKJBr8ifZjIe.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height: 100vh; */
+    background-size: cover;
+}
+
+.app {
+    /* background: #fff; */
+    width: 60%;
+    /* height: 80vh; */
+    max-width: 600px;
+    margin: 80px;
+    border-radius: 20px;
+    background-color: blue;
+    box-shadow: 0px 0px 10px 10px #ffffff;
+    padding: 30px;
+    box-shadow: 2px 2px 20px 10px #9be8f7;
+    backdrop-filter: blur(10px);
+   
+}
+
+.app h1 {
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.quiz {
+    width: 80%;
+    padding: 15px 0;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.quiz h2 {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #001e4d;
+    font-weight: 600;
+}
+
+.btn {
+    background: #fff;
+    color: #222;
+    font-weight: 600;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-family: sans-serif;
+}
+
+.btn:hover, .btn:focus {
+    background: #000000;
+    color: #fff;
+}
+
+.btn-click{
+    background: #001e4d;
+    color: #fff;
+}
+
+#next-btn {
+    background: #000000;
+    color: #fff;
+    font-weight: 500;
+    border: 0;
+    width: 150px;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    transition: all 0.3s;
+}
+#next-btn:hover {
+    background: white;
+    color: black;
+}
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+.t-body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+.s-body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}

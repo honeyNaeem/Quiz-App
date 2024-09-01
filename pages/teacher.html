@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Teachers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="t-body">
+    <div class="app">
+        <div  style="display: flex; justify-content: space-between; border-bottom: 1px solid black; flex-wrap: wrap;">
+        <h1>Simple Quiz</h1>
+            <p class="questionNo">Question no: 1</p>
+        </div>
+            <div class="quiz">
+            <h2 ><input id="question" class="quiz" type="text" placeholder="Write Question"></h2>
+        </div>
+            <div id="answers-button">
+           <input id="opt1" class="btn" type="text" placeholder="Answer 1">
+           <input id="opt2" class="btn" type="text" placeholder="Answer 2: This option is true.">
+           <input id="opt3" class="btn" type="text" placeholder="Answer 3">
+           <input id="opt4" class="btn" type="text" placeholder="Answer 4">
+        </div>
+        <div class="btns">
+        <button onclick="nextQues()" id="next-btn">NEXT</button>
+        <button onclick="end()" id="next-btn">END</button>
+    </div>
+    </div>
+    
+
+
+    <script src="teacher.js"></script>
+</body>
+</html>
